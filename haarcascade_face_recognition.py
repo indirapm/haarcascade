@@ -78,4 +78,4 @@ for image_path in image_paths:
                       (x_e+x+w_e, y_e+y+h_e), (0, 255, 255), 2)
 
   if args["image_result_folder"] is not None:
-    cv2.imwrite("image_result/" + image_path.split('/')[-1], image_save)
+    cv2.imwrite(args["image_result_folder"] + image_path.split('/')[-1], image_save)
