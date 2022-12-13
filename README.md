@@ -4,6 +4,8 @@ This code utilizes OpenCV haarcascade pretrained classifiers.
 
 The notebook file is use for development.
 
+Sample images are taken from WIDERFACE validation dataset.
+
 ## Instalation
 ```
 pip install -r requirements.txt 
@@ -11,5 +13,5 @@ pip install -r requirements.txt
 
 ## Inference
 ```
-python3 haarcascade_face_recognition.py --folder_path classifier/ --image_folder images/ --image_result_folder images-result/ --crop_faces_folder face-result 
+python3 haarcascade_face_recognition.py --folder_path classifier/ --image_folder images/ --image_result_folder images-result/ --crop_faces_folder face-result/ 
 ```
